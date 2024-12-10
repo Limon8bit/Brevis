@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Akro-B";
+    src:
+        url(../fonts/Akrobat-Bold.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Calibri";
+    src:
+        url(../fonts/Calibri.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Calibri-B";
+    src:
+        url(../fonts/Calibri-Bold.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Mont";
+    src:
+        url(../fonts/Montserrat-Regular.woff) format("woff");
+}

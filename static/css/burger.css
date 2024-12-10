@@ -1,0 +1,106 @@
+.burgerMenu{
+    width: 100vw;
+    height: 100vh;
+    padding: 48px 24px;
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: #19646B;
+    z-index: 10;
+}
+
+.burgerWrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.burgerElem{
+    flex-grow: 1;
+    margin-bottom: 24px;
+    font-family: 'Akro-B';
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.burgerElem:hover .navButton,
+.burgerElem:hover .servicesButton img{
+    opacity: 1;
+}
+
+.burgerElem .servicesButton {
+    display: flex;
+    flex-direction: column;
+}
+
+.burgerElem .servicesButton .navButton{
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    align-self: baseline;
+}
+
+.burgerElem .servicesButton img{
+    width: 4px;
+    height: 6px;
+    margin-left: 16px;
+}
+
+.burgerElem .servicesButton .services{
+    display: none;
+    position: relative;
+    flex-direction: column;
+    top: 0;
+}
+
+.burgerElem .servicesButton .services .services-service{
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    font-family: "Calibri";
+    border-bottom: 1px solid rgba(255, 255, 255, 0.48);
+}
+
+.burgerElem .servicesButton .services .services-service:last-child{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.burgerContacts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.burgerContacts-block{
+    font-family: "Calibri";
+    font-size: 16px;
+    color: white;
+}
+
+.burgerContacts-block:first-child{
+    margin-right: 32px;
+}
+
+.burgerContacts-block .info{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+
+}
+
+.burgerContacts-block .info img,
+.burgerContacts-block-WA img{
+    margin-right: 8px;
+}
+
+.burgerContacts-block .info p:last-child,
+.burgerContacts-block-WA{
+    font-family: "Akro-B";
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.burgerContacts-block-WA{
+    margin-top: 16px;
+    line-height: 24px;
+}

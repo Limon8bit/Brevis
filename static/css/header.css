@@ -1,0 +1,95 @@
+header{
+    padding: 56px 0 72px 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(25, 100, 107, 0.64), rgba(25, 100, 107, 0.64)), url(../img/headerIMGs/HeaderBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Akro-B";
+    font-size: 40px;
+    color: white;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 1400px;
+    justify-content: space-between;
+}
+
+.container-ls h2{
+    margin-left: 32px;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.container-rs{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-rs-topBlocksWrap{
+    margin-bottom: 32px;
+}
+
+.container-rs-fb,
+.container-rs-sb{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.container-rs-fb{
+    margin-right: 32px;
+}
+
+.container-rs-fb p:first-child, 
+.container-rs-sb p:first-child{
+    margin-bottom: 16px;
+    font-family: "Calibri";
+    font-size: 16px;
+    
+}
+
+.container-rs-fb .info .img-wrap,
+.container-rs-sb .info .img-wrap {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    justify-content: center;
+}
+
+.container-rs-WA a{
+    display: flex;
+    align-items: center;
+}
+
+.container-rs-WA a img{
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.container-rs-WA p{
+    font-size: 24px;
+}
+
+.burgerButton{
+    width: 24px;
+    height: 15px;
+    position: relative;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-start;
+    z-index: 11;
+}
+
+.burgerButton .line{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}

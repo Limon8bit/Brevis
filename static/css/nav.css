@@ -1,0 +1,134 @@
+nav{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .wrap{
+    width: 1400px;
+    height: 64px;
+    padding: 0 8px 0 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 32px;
+    background-color: #19646B;
+}
+
+nav .wrap .nav-link{
+    height: 100%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    border-right:1px solid rgba(255,255,255,0.32);
+    cursor: pointer;
+}
+
+nav .wrap .nav-link:first-child{
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    justify-content: flex-start;
+    flex-grow: 0.5;
+}
+
+nav .wrap .nav-link:last-child{
+    flex-grow: 0;
+}
+
+.navButton{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Akro-B';
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    opacity: 0.48;
+    transition: 0.3s;
+}
+
+.navButton img{
+    width: 4px;
+    height: 6px;
+    margin-left: 8px;
+    opacity: 0.48;
+}
+
+nav .wrap .nav-link:hover .navButton,
+nav .wrap .nav-link:hover .navButton img{
+    transition: 0.3s;
+    opacity: 100;
+}
+
+nav .wrap .nav-link:nth-child(5),
+nav .wrap .nav-link:last-child{
+    border: 0;
+}
+
+nav .wrap .nav-link:last-child{
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+.orangeButton{
+    width: max-content;
+    padding: 16px 32px;
+    border: 0;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Akro-B";
+    color: black;
+    background-color: #F7A420;
+    opacity: 100%;
+}
+
+.orangeButton p{
+    display: inline;
+}
+
+.servicesButton img{
+    transition: 0.3s;
+}
+
+.nav-link:hover .servicesButton img{
+    rotate: 90deg;
+}
+
+.nav-link:hover .servicesButton .services{
+    display: block;
+    transition: 0.3s;
+}
+
+.services{
+    width: 100%;
+    padding: 24px;
+    display: none ;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #28838C;
+    cursor: default;
+    transition: 0.3s;
+}
+
+.services-service{
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    color: white;
+    opacity: 0.48;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    transition: 0.3s;
+}
+
+.services-service:hover{
+    opacity: 100%;
+    transition: 0.3s;
+}
+
+.services-service:last-child{
+    margin-bottom: 0;
+}
